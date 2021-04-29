@@ -1117,7 +1117,6 @@ body {
 body.home {
   background-color: white;
   overflow-x: hidden;
-  height: 100%;
 }
 
 .home #primary {
@@ -1143,7 +1142,7 @@ body.home::after {
   body.home::after {
     clip-path: polygon(70% 0, 100% 0, 100% 100%, 60% 100%);
     background-color: wheat;
-    height: 420%;
+    height: 650%;
   }
 }
 
@@ -1203,6 +1202,10 @@ LISTE DES BLOCS DE COURS PAR type_de_cours
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.home .cours section article .flip-card {
+  background-color: red !important;
 }
 
 @media (min-width: 1200px) {
@@ -1300,6 +1303,12 @@ svg {
 
 .nouvelles {
   margin: 2% 4% 2% 3%;
+  padding: 30px;
+  border: dashed 3px black;
+}
+
+.nouvelles p {
+  font-size: 1.3rem;
 }
 
 /* ------------------------------------------------------------------------- 
@@ -1699,4 +1708,9 @@ h1.page-title {
 
 /* footer
 --------------------------------------------- */
+.site-footer {
+  background-color: black;
+  display: flex;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
