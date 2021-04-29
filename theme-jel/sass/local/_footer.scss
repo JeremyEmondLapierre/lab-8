@@ -20,6 +20,15 @@
 
 .site-footer{
     background-color: black;
-    display: flex;
+    position: relative;
+    top: 100px;
+    width: 100vw;
     color: white;
+    
+    .site-info{
+        display: flex;
+        flex-direction:row ;
+        padding: 20px;
+        justify-content: space-evenly;
+    }
 }

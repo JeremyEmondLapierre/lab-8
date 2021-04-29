@@ -1142,7 +1142,7 @@ body.home::after {
   body.home::after {
     clip-path: polygon(70% 0, 100% 0, 100% 100%, 60% 100%);
     background-color: wheat;
-    height: 650%;
+    height: 610%;
   }
 }
 
@@ -1710,7 +1710,16 @@ h1.page-title {
 --------------------------------------------- */
 .site-footer {
   background-color: black;
-  display: flex;
+  position: relative;
+  top: 100px;
+  width: 100vw;
   color: white;
+}
+
+.site-footer .site-info {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-evenly;
 }
 /*# sourceMappingURL=style.css.map */
